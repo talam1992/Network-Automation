@@ -25,3 +25,5 @@ tn.write(b"network 0.0.0.0 255.255.255.255 area 0\n")
 tn.write(b"end\n")
 tn.write(b"exit\n")
 
+
+print(tn.read_all().decode('ascii'))
